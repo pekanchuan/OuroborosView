@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C231BE5325EA6E720056E10C /* OuroborosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C231BE5225EA6E720056E10C /* OuroborosView.swift */; };
+		C231BE5925EA7DBE0056E10C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C231BE5625EA7DBE0056E10C /* 1.jpg */; };
+		C231BE5A25EA7DBE0056E10C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C231BE5725EA7DBE0056E10C /* 2.jpg */; };
+		C231BE5B25EA7DBE0056E10C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C231BE5825EA7DBE0056E10C /* 3.jpg */; };
+		C231BE5E25EA7E340056E10C /* OuroborosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C231BE5D25EA7E340056E10C /* OuroborosViewController.swift */; };
 		C24EBF54246A988C006CDC12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EBF53246A988C006CDC12 /* AppDelegate.swift */; };
 		C24EBF56246A988C006CDC12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EBF55246A988C006CDC12 /* SceneDelegate.swift */; };
 		C24EBF58246A988C006CDC12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24EBF57246A988C006CDC12 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C231BE5225EA6E720056E10C /* OuroborosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuroborosView.swift; sourceTree = "<group>"; };
+		C231BE5625EA7DBE0056E10C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C231BE5725EA7DBE0056E10C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C231BE5825EA7DBE0056E10C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C231BE5D25EA7E340056E10C /* OuroborosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuroborosViewController.swift; sourceTree = "<group>"; };
 		C24EBF50246A988C006CDC12 /* OuroborosViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuroborosViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24EBF53246A988C006CDC12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C24EBF55246A988C006CDC12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C231BE5525EA7DA70056E10C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C231BE5625EA7DBE0056E10C /* 1.jpg */,
+				C231BE5725EA7DBE0056E10C /* 2.jpg */,
+				C231BE5825EA7DBE0056E10C /* 3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		C24EBF47246A988C006CDC12 = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +79,13 @@
 				C24EBF53246A988C006CDC12 /* AppDelegate.swift */,
 				C24EBF55246A988C006CDC12 /* SceneDelegate.swift */,
 				C24EBF57246A988C006CDC12 /* ViewController.swift */,
+				C231BE5225EA6E720056E10C /* OuroborosView.swift */,
+				C231BE5D25EA7E340056E10C /* OuroborosViewController.swift */,
 				C24EBF59246A988C006CDC12 /* Main.storyboard */,
 				C24EBF5C246A988F006CDC12 /* Assets.xcassets */,
 				C24EBF5E246A988F006CDC12 /* LaunchScreen.storyboard */,
 				C24EBF61246A988F006CDC12 /* Info.plist */,
+				C231BE5525EA7DA70056E10C /* Images */,
 			);
 			path = OuroborosViewDemo;
 			sourceTree = "<group>";
@@ -125,8 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C231BE5A25EA7DBE0056E10C /* 2.jpg in Resources */,
 				C24EBF60246A988F006CDC12 /* LaunchScreen.storyboard in Resources */,
 				C24EBF5D246A988F006CDC12 /* Assets.xcassets in Resources */,
+				C231BE5925EA7DBE0056E10C /* 1.jpg in Resources */,
+				C231BE5B25EA7DBE0056E10C /* 3.jpg in Resources */,
 				C24EBF5B246A988C006CDC12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C231BE5E25EA7E340056E10C /* OuroborosViewController.swift in Sources */,
 				C24EBF58246A988C006CDC12 /* ViewController.swift in Sources */,
 				C24EBF54246A988C006CDC12 /* AppDelegate.swift in Sources */,
 				C24EBF56246A988C006CDC12 /* SceneDelegate.swift in Sources */,
+				C231BE5325EA6E720056E10C /* OuroborosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
